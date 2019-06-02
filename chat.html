@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ChatBox</title>
+</head>
+<body>
+    <div class="container-fluid row">
+        <div class="conteneur-chat col-8">
+            <div id="displayChat1" name="displayChat"></div>            
+        </div>
+        <div class="col-4">
+            <p class="discussion">Discussion : </p>
+            <p class="utilisateur">Connecté en tant que : </p>
+            <form class="write-message">
+                <textarea name="writtenMessage" id="writtenMessage" cols="30" rows="10"></textarea>
+                <a id="sendMessage" href=""><i class="fas fa-paper-plane"></i></a>
+            </form>
+            <button class="quit" type="submit">Quitter la conversation</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/main2.js"></script>
+</body>
+</html>
